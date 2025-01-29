@@ -26,3 +26,36 @@
     font-size: small;
     text-align: center;
 }
+
+.main {
+    background-color: saddlebrown;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main .post {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(0, 255, 174);
+}
+.main .post .profile_details {
+    width: 100%;
+    height: 25PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+.main .post .profile_details li {
+    list-style: none;
+
+}
+.main .post .profile_details img {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 2px solid blue;
+}
